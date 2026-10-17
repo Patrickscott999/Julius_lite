@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #0b0c0e;
+  --panel: #14161a;
+  --border: #26282e;
+  --text: #e7e8ea;
+  --muted: #9b9ea6;
+  --accent: #3b5bdb;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+  height: 100%;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #33363c transparent;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "julius-lite",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "0.135.0",
+    "better-sqlite3": "13.0.3",
+    "exceljs": "^4.4.0",
+    "next": "16.4.2",
+    "openai": "^7.36.0",
+    "pyodide": "314.0.7",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "4.3.3",
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "^24.10.7",
+    "@types/react": "^19.2.7",
+    "@types/react-dom": "^19.2.3",
+    "tailwindcss": "4.3.3",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.0"
+  }
+}

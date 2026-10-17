@@ -1,0 +1,7 @@
+node_modules
+.next
+.data
+*.tsbuildinfo
+.env.local
+.env
+.env.example.bak
